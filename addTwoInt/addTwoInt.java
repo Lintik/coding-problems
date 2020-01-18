@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class AddTwoInt{
+class AddTwoIntC{
     //add function
     public static int addTwoInt(int a, int b)
     {
@@ -13,7 +13,6 @@ class AddTwoInt{
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-        
         System.out.println(addTwoInt(a,b));
         sc.close();
     }
