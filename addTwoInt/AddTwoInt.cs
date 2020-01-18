@@ -1,3 +1,4 @@
+using System.IO;
 using System;
 class AddTwoInt{
     public static int AddTwoInt(int a, int b){
@@ -5,8 +6,8 @@ class AddTwoInt{
     }
 
     public static main(string []args){
-        int a = Console.Read();
-        int b = Console.Read();
+        int a = Convert.ToInt32(Console.ReadLine());
+        int b = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine(AddTwoIntInt(a,b));
     }
